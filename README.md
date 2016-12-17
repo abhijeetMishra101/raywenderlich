@@ -1,1 +1,1 @@
-Implementation of raywenderlich tutorials in Swift 3
+Implementation of raywenderlich iOS tutorials in Swift 3 (https://www.raywenderlich.com/category/ios)
