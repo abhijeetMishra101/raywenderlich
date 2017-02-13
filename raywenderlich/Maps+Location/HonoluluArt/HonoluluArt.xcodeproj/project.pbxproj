@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE34326F1E4D979C00BE1871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE34326E1E4D979C00BE1871 /* AppDelegate.swift */; };
+		EE3432711E4D979C00BE1871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3432701E4D979C00BE1871 /* ViewController.swift */; };
+		EE3432741E4D979C00BE1871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3432721E4D979C00BE1871 /* Main.storyboard */; };
+		EE3432761E4D979C00BE1871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3432751E4D979C00BE1871 /* Assets.xcassets */; };
+		EE3432791E4D979C00BE1871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3432771E4D979C00BE1871 /* LaunchScreen.storyboard */; };
+		EE3432841E4D979C00BE1871 /* HonoluluArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3432831E4D979C00BE1871 /* HonoluluArtTests.swift */; };
+		EE34328F1E4D979C00BE1871 /* HonoluluArtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE34328E1E4D979C00BE1871 /* HonoluluArtUITests.swift */; };
+		EE34329D1E4D9BEA00BE1871 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = EE34329C1E4D9BEA00BE1871 /* PublicArt.json */; };
+		EE34329F1E4DA32300BE1871 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE34329E1E4DA32300BE1871 /* Artwork.swift */; };
+		EE3432A11E4DBDE100BE1871 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3432A01E4DBDE100BE1871 /* VCMapView.swift */; };
+		EE3432A31E4DC84700BE1871 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3432A21E4DC84700BE1871 /* JSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE3432801E4D979C00BE1871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3432631E4D979B00BE1871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE34326A1E4D979B00BE1871;
+			remoteInfo = HonoluluArt;
+		};
+		EE34328B1E4D979C00BE1871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3432631E4D979B00BE1871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE34326A1E4D979B00BE1871;
+			remoteInfo = HonoluluArt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE34326B1E4D979C00BE1871 /* HonoluluArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonoluluArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE34326E1E4D979C00BE1871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE3432701E4D979C00BE1871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE3432731E4D979C00BE1871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE3432751E4D979C00BE1871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE3432781E4D979C00BE1871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE34327A1E4D979C00BE1871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE34327F1E4D979C00BE1871 /* HonoluluArtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonoluluArtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3432831E4D979C00BE1871 /* HonoluluArtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonoluluArtTests.swift; sourceTree = "<group>"; };
+		EE3432851E4D979C00BE1871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE34328A1E4D979C00BE1871 /* HonoluluArtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonoluluArtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE34328E1E4D979C00BE1871 /* HonoluluArtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonoluluArtUITests.swift; sourceTree = "<group>"; };
+		EE3432901E4D979C00BE1871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE34329C1E4D9BEA00BE1871 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		EE34329E1E4DA32300BE1871 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		EE3432A01E4DBDE100BE1871 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		EE3432A21E4DC84700BE1871 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE3432681E4D979B00BE1871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE34327C1E4D979C00BE1871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3432871E4D979C00BE1871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE3432621E4D979B00BE1871 = {
+			isa = PBXGroup;
+			children = (
+				EE34326D1E4D979C00BE1871 /* HonoluluArt */,
+				EE3432821E4D979C00BE1871 /* HonoluluArtTests */,
+				EE34328D1E4D979C00BE1871 /* HonoluluArtUITests */,
+				EE34326C1E4D979C00BE1871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE34326C1E4D979C00BE1871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE34326B1E4D979C00BE1871 /* HonoluluArt.app */,
+				EE34327F1E4D979C00BE1871 /* HonoluluArtTests.xctest */,
+				EE34328A1E4D979C00BE1871 /* HonoluluArtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE34326D1E4D979C00BE1871 /* HonoluluArt */ = {
+			isa = PBXGroup;
+			children = (
+				EE34326E1E4D979C00BE1871 /* AppDelegate.swift */,
+				EE34329C1E4D9BEA00BE1871 /* PublicArt.json */,
+				EE34329E1E4DA32300BE1871 /* Artwork.swift */,
+				EE3432A01E4DBDE100BE1871 /* VCMapView.swift */,
+				EE3432701E4D979C00BE1871 /* ViewController.swift */,
+				EE3432721E4D979C00BE1871 /* Main.storyboard */,
+				EE3432751E4D979C00BE1871 /* Assets.xcassets */,
+				EE3432A21E4DC84700BE1871 /* JSON.swift */,
+				EE3432771E4D979C00BE1871 /* LaunchScreen.storyboard */,
+				EE34327A1E4D979C00BE1871 /* Info.plist */,
+			);
+			path = HonoluluArt;
+			sourceTree = "<group>";
+		};
+		EE3432821E4D979C00BE1871 /* HonoluluArtTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE3432831E4D979C00BE1871 /* HonoluluArtTests.swift */,
+				EE3432851E4D979C00BE1871 /* Info.plist */,
+			);
+			path = HonoluluArtTests;
+			sourceTree = "<group>";
+		};
+		EE34328D1E4D979C00BE1871 /* HonoluluArtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE34328E1E4D979C00BE1871 /* HonoluluArtUITests.swift */,
+				EE3432901E4D979C00BE1871 /* Info.plist */,
+			);
+			path = HonoluluArtUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE34326A1E4D979B00BE1871 /* HonoluluArt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3432931E4D979C00BE1871 /* Build configuration list for PBXNativeTarget "HonoluluArt" */;
+			buildPhases = (
+				EE3432671E4D979B00BE1871 /* Sources */,
+				EE3432681E4D979B00BE1871 /* Frameworks */,
+				EE3432691E4D979B00BE1871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HonoluluArt;
+			productName = HonoluluArt;
+			productReference = EE34326B1E4D979C00BE1871 /* HonoluluArt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE34327E1E4D979C00BE1871 /* HonoluluArtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3432961E4D979C00BE1871 /* Build configuration list for PBXNativeTarget "HonoluluArtTests" */;
+			buildPhases = (
+				EE34327B1E4D979C00BE1871 /* Sources */,
+				EE34327C1E4D979C00BE1871 /* Frameworks */,
+				EE34327D1E4D979C00BE1871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3432811E4D979C00BE1871 /* PBXTargetDependency */,
+			);
+			name = HonoluluArtTests;
+			productName = HonoluluArtTests;
+			productReference = EE34327F1E4D979C00BE1871 /* HonoluluArtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE3432891E4D979C00BE1871 /* HonoluluArtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3432991E4D979C00BE1871 /* Build configuration list for PBXNativeTarget "HonoluluArtUITests" */;
+			buildPhases = (
+				EE3432861E4D979C00BE1871 /* Sources */,
+				EE3432871E4D979C00BE1871 /* Frameworks */,
+				EE3432881E4D979C00BE1871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE34328C1E4D979C00BE1871 /* PBXTargetDependency */,
+			);
+			name = HonoluluArtUITests;
+			productName = HonoluluArtUITests;
+			productReference = EE34328A1E4D979C00BE1871 /* HonoluluArtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE3432631E4D979B00BE1871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Abhijeet Mishra";
+				TargetAttributes = {
+					EE34326A1E4D979B00BE1871 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7G4HHVAG9A;
+						ProvisioningStyle = Automatic;
+					};
+					EE34327E1E4D979C00BE1871 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7G4HHVAG9A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE34326A1E4D979B00BE1871;
+					};
+					EE3432891E4D979C00BE1871 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7G4HHVAG9A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE34326A1E4D979B00BE1871;
+					};
+				};
+			};
+			buildConfigurationList = EE3432661E4D979B00BE1871 /* Build configuration list for PBXProject "HonoluluArt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE3432621E4D979B00BE1871;
+			productRefGroup = EE34326C1E4D979C00BE1871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE34326A1E4D979B00BE1871 /* HonoluluArt */,
+				EE34327E1E4D979C00BE1871 /* HonoluluArtTests */,
+				EE3432891E4D979C00BE1871 /* HonoluluArtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE3432691E4D979B00BE1871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE34329D1E4D9BEA00BE1871 /* PublicArt.json in Resources */,
+				EE3432791E4D979C00BE1871 /* LaunchScreen.storyboard in Resources */,
+				EE3432761E4D979C00BE1871 /* Assets.xcassets in Resources */,
+				EE3432741E4D979C00BE1871 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE34327D1E4D979C00BE1871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3432881E4D979C00BE1871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE3432671E4D979B00BE1871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3432A11E4DBDE100BE1871 /* VCMapView.swift in Sources */,
+				EE3432A31E4DC84700BE1871 /* JSON.swift in Sources */,
+				EE3432711E4D979C00BE1871 /* ViewController.swift in Sources */,
+				EE34329F1E4DA32300BE1871 /* Artwork.swift in Sources */,
+				EE34326F1E4D979C00BE1871 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE34327B1E4D979C00BE1871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3432841E4D979C00BE1871 /* HonoluluArtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3432861E4D979C00BE1871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE34328F1E4D979C00BE1871 /* HonoluluArtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE3432811E4D979C00BE1871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE34326A1E4D979B00BE1871 /* HonoluluArt */;
+			targetProxy = EE3432801E4D979C00BE1871 /* PBXContainerItemProxy */;
+		};
+		EE34328C1E4D979C00BE1871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE34326A1E4D979B00BE1871 /* HonoluluArt */;
+			targetProxy = EE34328B1E4D979C00BE1871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE3432721E4D979C00BE1871 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3432731E4D979C00BE1871 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE3432771E4D979C00BE1871 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3432781E4D979C00BE1871 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE3432911E4D979C00BE1871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE3432921E4D979C00BE1871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE3432941E4D979C00BE1871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7G4HHVAG9A;
+				INFOPLIST_FILE = HonoluluArt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhijeet.HonoluluArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE3432951E4D979C00BE1871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7G4HHVAG9A;
+				INFOPLIST_FILE = HonoluluArt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhijeet.HonoluluArt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE3432971E4D979C00BE1871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7G4HHVAG9A;
+				INFOPLIST_FILE = HonoluluArtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhijeet.HonoluluArtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonoluluArt.app/HonoluluArt";
+			};
+			name = Debug;
+		};
+		EE3432981E4D979C00BE1871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7G4HHVAG9A;
+				INFOPLIST_FILE = HonoluluArtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhijeet.HonoluluArtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonoluluArt.app/HonoluluArt";
+			};
+			name = Release;
+		};
+		EE34329A1E4D979C00BE1871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7G4HHVAG9A;
+				INFOPLIST_FILE = HonoluluArtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhijeet.HonoluluArtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HonoluluArt;
+			};
+			name = Debug;
+		};
+		EE34329B1E4D979C00BE1871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7G4HHVAG9A;
+				INFOPLIST_FILE = HonoluluArtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhijeet.HonoluluArtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HonoluluArt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE3432661E4D979B00BE1871 /* Build configuration list for PBXProject "HonoluluArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3432911E4D979C00BE1871 /* Debug */,
+				EE3432921E4D979C00BE1871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3432931E4D979C00BE1871 /* Build configuration list for PBXNativeTarget "HonoluluArt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3432941E4D979C00BE1871 /* Debug */,
+				EE3432951E4D979C00BE1871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE3432961E4D979C00BE1871 /* Build configuration list for PBXNativeTarget "HonoluluArtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3432971E4D979C00BE1871 /* Debug */,
+				EE3432981E4D979C00BE1871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE3432991E4D979C00BE1871 /* Build configuration list for PBXNativeTarget "HonoluluArtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE34329A1E4D979C00BE1871 /* Debug */,
+				EE34329B1E4D979C00BE1871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE3432631E4D979B00BE1871 /* Project object */;
+}
